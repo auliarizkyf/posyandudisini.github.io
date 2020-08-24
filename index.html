@@ -11,12 +11,6 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
   </head>
   <body>
 
@@ -24,8 +18,26 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
           <a href="" class="navbar-brand">Posyandu Disini</a>
         </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav ml-auto">
+           <li class="nav-item">
+            <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+
       </div>
     </nav>
     <!-- akhir navbar -->
@@ -40,6 +52,64 @@
        <a class="btn btn-primary btn-lg" href="#" role="button">DAFTAR</a>
      </div>
      <!-- akhir jumbotron -->
+
+     <!-- about -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 class="text-center">About</h2>
+            <hr>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <p>Posyandu merupakan salah satu bentuk Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) yang dikelola dari, oleh, untuk, dan bersama masyarakat, guna memberdayakan masyarakat dan memberikan kemudahan kepada masyarakat dalam memperoleh pelayanan kesehatan dasar.</p>
+          </div>
+          <div class="col-sm-6">
+            <p>Upaya peningkatan peran dan fungsi Posyandu bukan semata-mata tanggungjawab pemerintah saja,namun semua komponen yang ada di masyarakat, termasuk kader. Peran kader dalam penyelenggaraan Posyandu sangat besar karena selain sebagai pemberi informasi kesehatan kepada masyarakat juga sebagai penggerak masyarakat untuk datang ke Posyandu dan melaksanakan perilaku hidup bersih dan sehat.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end about -->
+
+    <!-- portfolio -->
+    <section class="portofolio" id="portofolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <h2>Portofolio</h2>
+            <hr>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-4">
+            <a href="" class="thumbnail">
+              <img src="img/portofolio/posyandu1.png">
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="" class="thumbnail">
+              <img src="img/portofolio/posyandu2.png">
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="" class="thumbnail">
+              <img src="img/portofolio/posyandu3.png">
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="" class="thumbnail">
+              <img src="img/portofolio/posyandu4.png">
+            </a>
+          </div> 
+        </div>
+      </div>
+    </section>
+    <!-- end portfolio -->
 
      <!-- contact -->
      <section class="contact" id="contact">
@@ -97,4 +167,4 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
   </body>
-</html>
+</html>   
